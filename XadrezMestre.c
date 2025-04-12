@@ -47,11 +47,6 @@ int main(){
       printf("Direita\n");
       break;
    }
-   
-   
-
-
-
 return 0;
 
 
