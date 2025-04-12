@@ -30,13 +30,13 @@ void moverRainha(int casas) { // Recursividade da Rainha para produzir 8 casas p
 
 int main(){
    printf("Movemento do Bispo:\n");
-   moverBispo(0);
+   moverBispo(0); // Chama a função recursiva do Bispo
 
    printf("Movemento da Torre:\n");
-   moverTorre(5);
+   moverTorre(5); // Chama a função recursiva da Torre
    
    printf("Movemento da Rainha:\n");
-   moverRainha(8);
+   moverRainha(8); // Chama a função recursiva da Rainha
 
    printf("Movemento do Cavalo:\n"); // Loop Complexo do Cavalo para produzir um movemento em formato de 'L'
    for (int i = 0; i < 2; i++) {
